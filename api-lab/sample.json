@@ -1,0 +1,37 @@
+{
+  "studio": {
+    "movie": [
+      {
+        "category": "history",
+        "director": "John",
+        "title": "History",
+        "rating": 6.60
+      },
+      {
+        "category": "comedy",
+        "director": "Paul",
+        "title": "Laugh",
+        "rating": 4.00
+      },
+      {
+        "category": "fiction",
+        "director": "Jack",
+        "title": "Wake",
+        "isbn": "87877676879",
+        "rating": 8.01
+      },
+      {
+        "category": "drama",
+        "director": "Edward",
+        "title": "Wuthering Heights",
+        "isbn": "8754543578",
+        "rating": 4.50
+      }
+    ],
+    "music": {
+      "song": "pale",
+      "rate": 5.4
+    }
+  },
+  "ranking": 20
+}
