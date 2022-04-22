@@ -1,10 +1,14 @@
 # API Lab
 
-1. Make API calls using the following URIs and record the status code and response body for each API call (You will write the answer after every  question and any screen  capture in this document)
+## Make API calls using the following URIs and record the status code and response body for each API call (You will write the answer after every  question and any screen  capture in this document)
+1. 
 2. Get information about all users using URI: `https://reqres.in/api/users`
+   
+Question:
+   * How many list you can see in response body?
+
 3. Get information about the user with id 3 using URI: `https://reqres.in/api/users/3`
 4. Get information of the user with id 40 using URI: `https://reqres.in/api/users/40`
-
 5.  Create a new user in a system using
 `URI: https://reqres.in/api/users
 Verb: POST
@@ -20,6 +24,7 @@ Request Body:`
 Question:
 * What is the response code?
 * What are the available property(Key) name in the response body?
+* What is the value of response Header  Etag?
 
 6. Sign in to the system using URI: https://reqres.in/api/login and  {"email": "peter@klaven"}
 
