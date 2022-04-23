@@ -178,20 +178,20 @@
    * What are the available property(Key) names in the response body?
 26. Get an user Using URL `https://reqres.in/api/unknown/2` 
 <br/> Question:
-* What is the response?
+    * What is the response?
 27. A simple health check endpoint to confirm whether the API is up and running using `https://restful-booker.herokuapp.com/ping`
     <br/>Question:
     * What is the response?
 28. Get information using Delayed Response using URI: `https://reqres.in/api/users?delay=3`
   <br/>Question:
-   * What is the response?
-   * How much seconds delay to respond?
+    * What is the response?
+    * How much seconds delay to respond?
 29. Get information about vehicles using URL `https://swapi.dev/api/vehicles/schema/`
 <br/>Question:
-* What type of response it is?
-* What is response status code?
+    * What type of response it is?
+    * What is response status code?
 30. Get information about starships using URL `https://swapi.dev/api/starships/schema/`
     <br/>Question:
-* What type of response it is?
-* Write down the response status code.
-* What are the available property(Key) names in the response body?
+    * What type of response it is?
+    * Write down the response status code.
+    * What are the available property(Key) names in the response body?
