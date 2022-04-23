@@ -1,5 +1,16 @@
 # API Lab
 
+## Overview
+Let's Work With Postman and learn API. Postman is REST API Client. We will use this tool to learn more about API, Create API calls and validate the API responses manually and programmatically.
+
+1. Use this document to [Send your first request](https://learning.postman.com/docs/getting-started/sending-the-first-request/) using postman.
+    *  Can you tell us in your own word what just happened after making your first request?
+2. [Create your first collection](https://learning.postman.com/docs/getting-started/creating-the-first-collection/), Collection Name: api-lab
+    * Save your request from step 1 in  collection. 
+    * Save all your request in this collection
+3. Building a request requires many components. Please read every paragraph in this document and learn every component by implementing in your postman. [Building  Requests](https://learning.postman.com/docs/sending-requests/requests/).
+This task will take sometime. Once you are done with this rest of the task will be very easy. Fasten Your Seat Belt and Keep moving. Enjoy the ride and joy of doing practical things!!!
+
 ## Make API calls using the following URIs and record the status code and response body for each API call (You will write the answer after every  question and any screen  capture in this document)
 1. Get authentication token using URI: `https://postman-echo.com/basic-auth`
    <br/>Question:
@@ -195,3 +206,5 @@
     * What type of response it is?
     * Write down the response status code.
     * What are the available property(Key) names in the response body?
+    
+31. Let's try something interesting. Can we remember bash script? Choose any 5 GET API. Use one bash script to make call and save the response in 5 different json file. If you can't achieve it that's fine. This is for fun.Example `curl www.google.com >> response1.json`
