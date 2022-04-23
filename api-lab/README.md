@@ -185,7 +185,7 @@
 28. Get information using Delayed Response using URI: `https://reqres.in/api/users?delay=3`
   <br/>Question:
     * What is the response?
-    * How much seconds delay to respond?
+    * How many seconds delay to respond?
 29. Get information about vehicles using URL `https://swapi.dev/api/vehicles/schema/`
 <br/>Question:
     * What type of response it is?
