@@ -1,4 +1,4 @@
-#Java Basic Assignment 1
+# Java Basic Assignment 1
 1. What is a programming language? What is Java and what is Java used for?
 2. Which version of Java you are working with? How can you find out the version of Java you are using?
 3. What is IDE? Which IDE you are working with? 
