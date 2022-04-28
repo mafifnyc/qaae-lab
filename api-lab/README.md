@@ -208,3 +208,28 @@ This task will take sometime. Once you are done with this rest of the task will 
     * What are the available property(Key) names in the response body?
     
 31. Let's try something interesting. Can we remember bash script? Choose any 5 GET API. Use one bash script to make call and save the response in 5 different json file. If you can't achieve it that's fine. This is for fun.Example `curl www.google.com >> response1.json`
+
+# Training API
+
+Tokenization is a very common API security proess and below API endpoint will allow you to know how to deal with oauth2 basic auth  token.
+And pass it to any API which is secured by that authorization. 
+
+1. GET TOKEN
+   `curl --location --request POST 'https://izaan-test.auth.us-east-1.amazoncognito.com/oauth2/token' \
+   --header 'Authorization: Basic MXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamY6MXFia3RodnA3bGJjN2FhdnVoaG1mZzhmMmNyZWtvcjloMmg3YWJ1Mm9ydTFubHBqNzFmZQ==' \
+   --header 'Content-Type: application/x-www-form-urlencoded' \
+   --data-urlencode 'scope=izaan_test/post_info' \
+   --data-urlencode 'grant_type=client_credentials'`
+
+2. Know whether you are adult, minor, senior
+
+`
+curl --location --request POST 'https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/submit' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer CognitoTokenFromCall01 \
+--data-raw
+````json {
+	"name" : "John",
+	"age" : 50
+    } 
+ ```
