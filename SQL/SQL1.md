@@ -1,4 +1,4 @@
-##SQL FIRST ASSIGNMENT
+## SQL FIRST ASSIGNMENT
 1. Write a query to get all data of actor.
 2. Write a query to get email and last name of customer. 
 3. Write a query to get title, description and release year of film.
