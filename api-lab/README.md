@@ -1,6 +1,7 @@
 # API Lab
 
-## Overview
+## 1. General
+### Overview
 Let's Work With Postman and learn API. Postman is REST API Client. We will use this tool to learn more about API, Create API calls and validate the API responses manually and programmatically.
 
 1. Use this document to [Send your first request](https://learning.postman.com/docs/getting-started/sending-the-first-request/) using postman.
@@ -11,7 +12,7 @@ Let's Work With Postman and learn API. Postman is REST API Client. We will use t
 3. Building a request requires many components. Please read every paragraph in this document and learn every component by implementing in your postman. [Building  Requests](https://learning.postman.com/docs/sending-requests/requests/).
 This task will take sometime. Once you are done with this rest of the task will be very easy. Fasten Your Seat Belt and Keep moving. Enjoy the ride and joy of doing practical things!!!
 
-## Make API calls using the following URIs and record the status code and response body for each API call (You will write the answer after every  question and any screen  capture in this document)
+#### Make API calls using the following URIs and record the status code and response body for each API call (You will write the answer after every  question and any screen  capture in this document)
 1. Get authentication token using URI: `https://postman-echo.com/basic-auth`
    <br/>Question:
    * How did you get the response?
@@ -209,8 +210,8 @@ This task will take sometime. Once you are done with this rest of the task will 
     
 31. Let's try something interesting. Can we remember bash script? Choose any 5 GET API. Use one bash script to make call and save the response in 5 different json file. If you can't achieve it that's fine. This is for fun.Example `curl www.google.com >> response1.json`
 
-# Training API
-
+## 2. Training API using AWS Cognito
+### Overview
 Tokenization is a very common API security proess and below API endpoint will allow you to know how to deal with oauth2 basic auth  token.
 And pass it to any API which is secured by that authorization. 
 
@@ -227,9 +228,25 @@ And pass it to any API which is secured by that authorization.
 curl --location --request POST 'https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/submit' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer CognitoTokenFromCall01 \
---data-raw
-````json {
-	"name" : "John",
-	"age" : 50
-    } 
- ```
+--data-raw ````json
+{
+"name" : "John",
+"age" : 50
+}
+
+
+## 3.   GitHub API
+###Overview
+Every REST API requires to have clean documentation for the consumers. 
+GitHub uses REST API(You can just read API) for all the actions. Anything you are
+able to do by using website you shall be able to do it using postman or any API client.
+When you create a repo in github you are making a API call with necessary information to the
+github server. We are going to learn REST API using github API documentation. Let's go and do some cool
+stuff.
+
+1. Go to GitHub Rest API Doc   See if you can, [create a repo](https://docs.github.com/en/rest/repos/repos#create-a-repository-for-the-authenticated-user) using API.
+2. [Get a Repository](https://docs.github.com/en/rest/repos/repos#get-a-repository)
+3. Delete a repo 
+4. Create a branch
+5. Read other API documentation to increase your understanding on API documentation and power of API.
+ 
