@@ -124,7 +124,7 @@ You shall use PgAdmin to connect to the dvdrental database and use the pgadmin c
  Was it fun? I hope so. You must have learned various way to talk to RDS
 
 #### Lab 5.3: SQL Assignment 03
-### Guidance 5.2
+### Guidance 5.3
 You will use the database dvdrental which you have imported earlier lab 5.1 to accomplish this assignment.
 Do not become scared by seeing the list of questions. It's easy I promise. Take help of [Getting Started with PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/)
 tutorial to learn how to make those basic query and find it the required answer.
