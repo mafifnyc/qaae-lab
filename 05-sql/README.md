@@ -2,16 +2,20 @@
 
 <!-- TOC -->
 
-- [Topic 5.1: Structured Query Language (SQL)](#topic-5-simple-storage-service-s3)
+- [Lab 5.1: Structured Query Language (SQL)](#topic-5-simple-storage-service-s3)
     - [Guidance](#guidance)
-    - [Assignment 5.1: Introduction to SQL and Databases](#assignment-51-introduction-to-sql-and-databases)
+    - [Assignment 5.1: Introduction to SQL and Databases](#assignment-1-introduction-to-sql-and-databases)
         - [Principle 5.1](#principle-51)
         - [Practice 5.1](#practice-51)
             - [Lab 5.1.1: Installation](#lab-511-installation)
         - [Retrospective 5.1](#retrospective-51)
-- [Topic 5.2: Let's learn some very easy SQL query](#learn-basic-sql-query)  
+- [Lab 5.2: Let's learn some very easy SQL query](#learn-basic-sql-query)  
     - [Guidance](#guidance)
     - [Assignment 5.2: Let's learn some very easy SQL query](#learn-sql)
+
+- [Lab 5.3: SQL Assignment 03](#sql-assignment-3)
+    - [Guidance](#guidance)
+    - [Assignment 5.3: Let's learn some very easy SQL query](#learn-sql)
 - [Reference resources](#reference-resoures)    
 
 
@@ -46,7 +50,7 @@
 
 [comment]: <> (times.)
 
-## Lesson 5.1: Introduction to SQL
+## Lab 5.1: Introduction to SQL
 
 ### Principle 5.1
 
@@ -79,7 +83,7 @@ Using "aws s3", create a bucket:
 - What are the components we need to connect  to a database server?
 
 #### Lab 5.2: Let's learn some very easy SQL query
-### Principle 5.2
+### Guidance 5.2
  You will use the database dvdrental which you have imported earlier lab 5.1 to accomplish this assignment.
 Do not become scared by seeing the list of questions. It's easy I promise. Take help of [Getting Started with PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/) 
 tutorial to learn how to make those basic query and find it the required answer.
@@ -118,6 +122,48 @@ You shall use PgAdmin to connect to the dvdrental database and use the pgadmin c
 
 ### Retrospective 5.2
  Was it fun? I hope so. You must have learned various way to talk to RDS
+
+#### Lab 5.3: SQL Assignment 03
+### Guidance 5.2
+You will use the database dvdrental which you have imported earlier lab 5.1 to accomplish this assignment.
+Do not become scared by seeing the list of questions. It's easy I promise. Take help of [Getting Started with PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/)
+tutorial to learn how to make those basic query and find it the required answer.
+You shall use PgAdmin to connect to the dvdrental database and use the pgadmin console to execute the query
+
+#### Assignment 5.3: SQL Assignment 03
+
+== Simple Selects
+
+    5.3.1: What are all the records in the store table, ordered by the primary key of the table?
+    
+    5.3.2: What are the first 10 records in the inventory table in ascending order of update (show just the primary key and the update timestamp)?
+== Selects from more than 1 table
+
+    5.3.3: What is the street address, district, city name, and phone number for all addresses in the 18743 postal code?
+== Aggregate Selects
+
+    5.3.4: How many records are in the inventory table?
+    
+    5.3.5: What is the timestamp of the most recent update to the staff table?
+    
+    5.3.6: How many distinct values of country_id exist in the city table?
+    
+    5.3.7: How many actors' last names begin with either a "B" or a "C"?
+    
+    5.3.8: What is the average payment amount (rounded to the nearest cent) and number of payments made in the month of April, 2007,
+    by customers that are currently active, and whose average payment is at least $5.00?
+    
+    5.3.9: Show customer's first and last name and email, and label the average payment field as "Avg. Payment Amount"
+    and the number of payments field as "Number of Payments".
+    
+    5.3.10: Order the results by highest payment first, and then by last name.
+
+== Set Theory Selects
+
+    5.3.11: What are all the first names of both the actors and the staff members that begin with the letter 'S' (in alphabetical order)?
+
+    5.3.12: Show the title of the films that Jon rented on May 29, 2005 in common with those that Mike rented on June 20, 2005. Order by film title.
+
 # Reference resources
 -  [Getting Started with PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/)
 -  [PostgreSQL](https://www.postgresql.org/)
