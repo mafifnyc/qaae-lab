@@ -1,17 +1,17 @@
 ##Assignment 4 (Class Object and Control flow)
-69. Write a java program with a following methods:  method "sum" which returns sum of two numbers,  method "multiplication" which returns product of two numbers, method "Subtraction" which returns difference of two numbers, method "division" which returns quotient value.
-For example if first number is 2 and second number is 3 then output should be like:
+
+1. Write a java program with a following methods:  method "sum" which returns sum of two numbers,  method "multiplication" which returns product of two numbers, method "Subtraction" which returns difference of two numbers, method "division" which returns quotient value. For example if first number is 2 and second number is 3 then output should be like:
 Sum of 2 and 3 is: 5
 Product of 2 and 3 is: 6
 ..... and so on
-70. Write a Java method to check whether a string is a valid password.
+2. Write a Java method to check whether a string is a valid password.
 Password rules:
 A password must have at least ten characters.
 A password consists of only letters and digits.
 A password must contain at least two digits.
-71. Define a method to find out if number is prime or not.
-72. Define a method to find out number is even or odd. 
-73. Write a program which will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered as below:
+3. Define a method to find out if number is prime or not.
+4. Define a method to find out number is even or odd. 
+5. Write a program which will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered as below:
 Marks        Grade
 91-100         AA
 81-90          AB
