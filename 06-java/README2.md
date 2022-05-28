@@ -41,8 +41,8 @@ public Author (String firstName, String lastName): A constructor with parameters
 Instance methods:
 public void setFirstName (String firstName): Used to set the first name of author.
 public void setLastName (String lastName): Used to set the last name of author.
-public double getFirstName(): This method returns the first name of the author.
-public double getLastName(): This method returns the last name of the author.
+public String getFirstName(): This method returns the first name of the author.
+public String getLastName(): This method returns the last name of the author.
 public String toString(): This method printed out author’s name to the screen
 87. Write a Java class Book with following features:
 Instance variables :
@@ -55,8 +55,8 @@ Instance methods:
 public void setTitle(String title): Used to set the title of book.
 public void setAuthor(String author): Used to set the name of author of book.
 public void setPrice(double price): Used to set the price of book.
-public double getTitle(): This method returns the title of book.
-public double getAuthor(): This method returns the author’s name of book.
+public String getTitle(): This method returns the title of book.
+public String getAuthor(): This method returns the author’s name of book.
 public String toString(): This method printed out book’s details to the screen
 88. Print the average of three numbers entered by user by creating a class named 'Average' having a method to calculate and print the average.
 89. The Java class called Holidayis started below. An object of class Holidayrepresents a
@@ -76,11 +76,11 @@ has the following three class variables:
 title, which is a String representing the title of the movie
 studio, which is a String representing the studio that made the movie
 rating, which is a String representing the rating of the movie (i.e. PG­13, R, etc)
-Write a constructor for the class Movie, which takes a Stringrepresenting the title of the
-movie, a Stringrepresenting the studio, and a Stringrepresenting the rating as its
+Write a constructor for the class Movie, which takes a String representing the title of the
+movie, a String representing the studio, and a String representing the rating as its
 arguments, and sets the respective class variables to these values.
-b) Write a second constructor for the class Movie, which takes a Stringrepresenting the title
-of the movie and a Stringrepresenting the studio as its arguments, and sets the respective
+b) Write a second constructor for the class Movie, which takes a String representing the title
+of the movie and a String representing the studio as its arguments, and sets the respective
 class variables to these values, while the class variable ratingis set to "PG"
 91. Write a java program with method that reads two integers, determines whether the first is a multiple of the second and print
 the result.
