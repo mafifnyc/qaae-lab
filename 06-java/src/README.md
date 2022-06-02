@@ -1,4 +1,4 @@
-# Java Class Object Method 101 for Infant :) 
+# Assignment: Java Class Object Method 101 for Infant :) 
 ## Read the instructions in the Computer class 
  1. Write a method called turnOnComputer() in Computer class and use this method. Hints you can call the method in the main()
  2. Write a method named turnOffComputer in Computer class.
