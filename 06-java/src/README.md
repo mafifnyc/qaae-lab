@@ -19,8 +19,7 @@
  15. Write a method to add two numbers in Calculator class.
  16. Write a method to deduct two numbers in Calculator class. Return the result
  17. Write a method to add three numbers in Calculator class. Return the result.
- 18. Write a method to deduct three numbers in Calculator class. Return the result.
-
+ 
 ### Feel free to add many more similar things what you use in your computer every day.
  
 
