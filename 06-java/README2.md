@@ -90,3 +90,36 @@ description(type String),a quantity of the item being purchased (type int) and a
 class should have a constructor that initializes the four instance variables.Provide a method named getInvoice Amount that calculates the invoice
 amount (i.e., multiplies the quantity by the price per item), then returns the amount as a double value. If the
 quantity is not positive, it should be set to 0. If the price per item is not positive, it should be set to 0.0.
+
+Assignment 5 
+93. Write a program that prompts the user to input a positive integer. It should then print the multiplication table of that number. (use all possible loops)
+94. Write a do-while loop that asks the user to enter two numbers. The numbers should be added and the sum displayed. The loop should ask the user whether he or she wishes to perform the operation again. If so, the loop should repeat; otherwise it should terminate.
+95. Write a program that take 10 integers from keyboard using loop and print their average value on the screen.
+96. As activity directory at Lake LazyDays Resort, it is your job to suggest appropriate activities to guests based on the weather: 
+temp >= 80: swimming
+60 <= temp < 80: tennis
+40 <= temp < 60: golf
+temp < 40: skiing
+a. Write a program that prompts the user for a temperature, then prints out the activity appropriate for that temperature. Use acascading if, and be sure that your conditions are no more complex than necessary.
+b. Modify your program so that if the temperature is greater than 95 or less than 20, it prints "Visit our shops!". (Hint: Use a boolean operator in your condition.) For other temperatures print the activity as before.
+97. Write a program taht read 10 values from the user and print the lowest and highest value entered.
+98. Write a program that takes first number, second number and operator(+,-, * , /, %) from user and based on which operator user choose it will print result. (use switch statment)
+99. Write a program that print a message based on the grade of a student. (use switch statement)
+Grade	Message
+A+	Excellent
+A	Very Good 
+B	Good
+C	Fair
+D	Can do better
+E	Just Passed
+F 	Fail
+100. Design a class called Meeting to represent meetings in a diary. The Meeting class has the following fields:
+time of the meeting represented as string in hours and minutes, location of the meeting (such as “room 205”), subject to represent the meeting’s subject (such as “Examiner’s meeting”). 
+Time, location and subject are stored as strings.
+The class should include a constructor and the following methods: setTime: to set the time, setLocation: to set the location, setSubject: to set the subject, getSubject: to return the subject of the meeting, printDetails: to print all information of a meeting in the following form:
+"Meeting in room 205 at 12:30; Subject: Examiner’s meeting."
+101. A hospital wants to create a database regarding its indoor patients. The information to store include : Name of the patient - Age of the patient - Disease - Date of admission - Date of discharge
+Create a class called Patient to store the above information. The member methods should include method to enter and print information of employee, method having an array list to store all patients, method to add a patient to the list and to delete a patient from the list. 
+It also has a method to display a list of all the patients in the hospital and a method to display only the patients whose age is less than 12. 
+102. 
+
