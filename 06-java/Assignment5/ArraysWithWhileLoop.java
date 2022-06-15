@@ -1,4 +1,5 @@
 public class ArraysWithWhileLoop extends WhileAndDoWhile{
+
     String[] subjects= {"math","computer science","history","geograpghy"};
     int [] numbers= {3,7,9,4,2};
     char [] alphabets= {'a','c','e'};
@@ -12,9 +13,7 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
             System.out.println(subjects[i]);
             i++;
         }
-
     }
-
     @Override
     public void printIntagerArray() {
         int i=0;
@@ -23,7 +22,6 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
             i++;
         }
     }
-
     @Override
     public void printCharArray() {
         int i=0;
@@ -32,7 +30,6 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
             i++;
         }
     }
-
     @Override
     public void searchStringArray(String word) {
         int i=0;
@@ -45,9 +42,7 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
             }
             i++;
         }
-
     }
-
     @Override
     public void searchIntegarArray(int number) {
         int i=0;
@@ -61,7 +56,6 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
             i++;
         }
     }
-
     @Override
     public void searchCharArray(char letter) {
         int i=0;
@@ -75,7 +69,6 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
             i++;
         }
     }
-
     /*Write implementation for other 5 methods which you declared
       in abstract class here as well using "WHILE LOOP"
 
@@ -92,16 +85,12 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
         }
 
     }
-
-
-
     public static void main(String [] args){
-        String[] vowelsArray = {"a","e","i","o","u"};
-        String[] subjects= {"math","computer science","history","geograpghy"};
-        int [] numbers= {3,7,9,4,2};
-        char [] alphabets= {'a','c','e'};
+        String[] vowels = {"a","e","i","o","u"};
+
         ArraysWithWhileLoop bunchOfArray = new ArraysWithWhileLoop();
-        bunchOfArray.printVowels(vowelsArray);
+
+        bunchOfArray.printVowels(vowels);
         bunchOfArray.printStringArray();
         bunchOfArray.printIntagerArray();
         bunchOfArray.printCharArray();
