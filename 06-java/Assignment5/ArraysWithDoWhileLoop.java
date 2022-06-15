@@ -7,6 +7,31 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
 
     }
 
+    @Override
+    public void printIntagerArray() {
+
+    }
+
+    @Override
+    public void printCharArray() {
+
+    }
+
+    @Override
+    public void searchStringArray(String word) {
+
+    }
+
+    @Override
+    public void searchIntegarArray(int number) {
+
+    }
+
+    @Override
+    public void searchCharArray(char letter) {
+
+    }
+
     /*Write implementation for other 5 methods which you declared
       in abstract class here as well using "DO-WHILE LOOP"
 
