@@ -33,7 +33,7 @@ public class ArraysWithWhileLoop extends WhileAndDoWhile{
     @Override
     public void searchStringArray(String word) {
         int i=0;
-        while(i<word.length()) {
+        while(i<subjects.length) {
             if(subjects[i] == word){
                 System.out.println("Here I am you found me");
             }

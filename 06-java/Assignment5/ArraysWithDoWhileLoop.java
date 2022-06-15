@@ -14,7 +14,6 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
         }
         while (i<subjects.length);
     }
-
     @Override
     public void printIntagerArray() {
         int i = 0;
@@ -24,7 +23,6 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
         }
         while (i < numbers.length);
     }
-
         @Override
     public void printCharArray() {
             int i=0;
@@ -34,28 +32,26 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
             }
             while(i< alphabets.length);
         }
-
     @Override
     public void searchStringArray(String word) {
         int i=0;
         do {
             if(subjects[i] == word){
-                System.out.println("Here I am you found me");
+                System.out.println("Here I am you found me, I am at " + i + "th Index.");
             }
             else {
                 System.out.println("you entered wrong input");
             }
             i++;
         }
-        while(i<word.length());
+        while(i<subjects.length);
     }
-
     @Override
     public void searchIntegarArray(int number) {
         int i=0;
         do {
             if(numbers[i] == number) {
-                System.out.println("Here I am you found me");
+                System.out.println("Here I am you found me, I am at " + i + "th Index.");
             }
             else {
                 System.out.println("you entered wrong input");
@@ -64,13 +60,12 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
         }
         while(i<numbers.length);
     }
-
     @Override
     public void searchCharArray(char letter) {
         int i=0;
         do {
             if(alphabets[i] == letter) {
-                System.out.println("Here I am you found me");
+                System.out.println("Here I am you found me, I am at " + i + "th Index.");
             }
             else {
                 System.out.println("you entered wrong input");
@@ -79,7 +74,6 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
         }
         while(i<alphabets.length);
     }
-
     /*Write implementation for other 5 methods which you declared
       in abstract class here as well using "DO-WHILE LOOP"
 
@@ -87,7 +81,6 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
           and if word is found print message "Here I am you found me"  ****
 
      */
-
     public void printVowels(String[] vowelArray){
         //write code here to print vowel array using While loop
         int i=0;
@@ -96,12 +89,10 @@ public class ArraysWithDoWhileLoop extends WhileAndDoWhile{
             i++;
         }
         while(i< vowelArray.length);
-
     }
-
-
     public static void main(String[] args){
         String[] vowels = {"a","e","i","o","u"};
+
         ArraysWithDoWhileLoop bunchOfArrays = new ArraysWithDoWhileLoop();
 
         bunchOfArrays.printVowels(vowels);
